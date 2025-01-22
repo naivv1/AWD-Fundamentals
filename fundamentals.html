@@ -30,14 +30,22 @@
 
       <div id="flex">
         <main>
-          <h1>welcome 2 my webpage !!!!!</h1>
-          <p>hi, i am ivan and this is the webpage for the rest of the activities</p>
-          <div class="bttmfloat"  style="width:100% ; pointer-events: none;  z-index: 10;"><marquee direction="left"><img src="https://i4.glitter-graphics.org/pub/411/411164p2r3mzaml8.gif"></marquee></div>
-
+            <h2>Printing</h2>
+            <button onclick="printHelloWorld()">Print Hello World</button>
+            <hr>
+            <h2>Looping</h2>
+            <input type="number" id="loopNumber" placeholder="Enter a number">
+            <button onclick="loopNumbers()">Loop Numbers</button>
+            <hr>
+            <h2>Input/Output</h2>
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="number" id="num2" placeholder="Enter second number">
+            <button onclick="basicCalculator()">Calculate Sum</button>
+            <div id="output"></div>
         </main>
+
         
-        <div id="flex">
-            <aside id="leftSidebar">
+        <aside id="leftSidebar">
               <!-- Blinkies container inside the left sidebar -->
     
               <h2>Updates</h2>
@@ -68,5 +76,6 @@
         </aside>
       </div>
     </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -177,4 +177,11 @@ strong {
 #blinkiesContainer {
     margin-top: 20px; /* Add space above the Blinkies container */
   }
-  
+
+ #output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #000000;
+    min-height: 30px; /* Ensure it has some height */
+}
